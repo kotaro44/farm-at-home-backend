@@ -11,7 +11,7 @@ const path = './data';
   app.get('/product/:id', product);
 
   app.listen(port, () => {
-    console.log(`Example app listening on port ${port}!`);
+    console.log(`Farm@Home Backend running at port ${port}!`);
   });
 })();
 
