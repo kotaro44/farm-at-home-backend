@@ -13,6 +13,9 @@
     "url": "git+https://github.com/kotaro44/farm-at-home-backend.git"
   },
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "bin": {
     "fah-backend": "index.js"
   },
