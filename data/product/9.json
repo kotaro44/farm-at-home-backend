@@ -1,0 +1,7 @@
+{
+  "product_id" : 9,
+  "name" : "Tuna",
+  "price" : 557,
+  "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/9.jpg",
+  "description" : "Tuna, chicken of the sea"
+}

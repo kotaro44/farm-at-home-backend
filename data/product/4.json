@@ -1,0 +1,7 @@
+{
+  "product_id" : 4,
+  "name" : "Onions",
+  "price" : 110,
+  "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/4.jpg",
+  "description" : "Don't cry, they're only onions."
+}

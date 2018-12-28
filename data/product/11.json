@@ -1,0 +1,7 @@
+{
+  "product_id" : 11,
+  "name" : "Bacon",
+  "price" : 212,
+  "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/11.jpg",
+  "description" : "Bacon, bacon, bacon, it's bacon!!!!!!!!"
+}

@@ -1,0 +1,7 @@
+{
+  "product_id" : 3,
+  "name" : "Bananas",
+  "price" : 88,
+  "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/3.jpg",
+  "description" : "Bananas come in many shapes, sizes, and variaties. THis description is written to be intentionally long and thus force implementation of some sort of scrolling."
+}

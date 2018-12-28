@@ -1,0 +1,7 @@
+{
+  "product_id" : 12,
+  "name" : "Peppers",
+  "price" : 9,
+  "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/12.jpg",
+  "description" : "Peppers, they come in many colours."
+}

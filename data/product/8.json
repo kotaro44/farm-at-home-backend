@@ -1,0 +1,7 @@
+{
+  "product_id" : 8,
+  "name" : "Salmon",
+  "price" : 267,
+  "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/8.jpg",
+  "description" : "Fish is lean and provides essential omega-3 fatty acids."
+}

@@ -1,0 +1,7 @@
+{
+  "product_id" : 6,
+  "name" : "Pork",
+  "price" : 343,
+  "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/6.jpg",
+  "description" : "Pork decription goes here, I'm getting bored writing these. Can you tell?"
+}
