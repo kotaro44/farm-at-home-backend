@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/kotaro44/farm-at-home-backend.git"
   },
-  "author": "",
+  "author": {
+    "name": "Carlos Amilcar Sanchez Rosa",
+    "email": "csanchezrhn@gmail.com",
+    "website": "http://kotaro44.github.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kotaro44/farm-at-home-backend/issues"
