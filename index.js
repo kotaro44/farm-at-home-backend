@@ -7,6 +7,12 @@ const port = 3000;
 const path = __dirname + '/data';
 
 (function router() {
+  app.use(function(req, res, next) {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+    next();
+  });
+
   app.get('/', ping);
   app.get('/list', list);
   app.get('/product/:id', product);
