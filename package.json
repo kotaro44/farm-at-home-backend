@@ -4,7 +4,7 @@
   "description": "Simple Backend Service for Farm@Home",
   "main": "index.js",
   "bin": {
-    "fah-backend": "index.js"
+    "fah-backend": "node index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
