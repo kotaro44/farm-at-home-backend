@@ -4,9 +4,10 @@ const express = require('express');
 const app = express();
 const fs = require('fs');
 const port = 3000;
-const path = './data';
+const path = __dirname + '/data';
 
 (function router() {
+  app.get('/', ping);
   app.get('/list', list);
   app.get('/product/:id', product);
 
@@ -14,6 +15,10 @@ const path = './data';
     console.log(`Farm@Home Backend running at port ${port}!`);
   });
 })();
+
+function ping(req, res) {
+  res.send('FAH - Backend');
+};
 
 function list(req, res) {
   res.setHeader('Content-Type', 'application/json');
