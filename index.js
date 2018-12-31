@@ -16,6 +16,8 @@ const path = __dirname + '/data';
   app.get('/', ping);
   app.get('/list', list);
   app.get('/product/:id', product);
+  app.get('/images/:id', images);
+  app.get('/icons/:id', icons);
 
   app.listen(port, () => {
     console.log(`Farm@Home Backend running at port ${port}!`);
@@ -23,7 +25,33 @@ const path = __dirname + '/data';
 })();
 
 function ping(req, res) {
-  res.send('FAH - Backend');
+  res.send('Farm@Home - Backend');
+};
+
+function images(req, res) {
+  var imagePath = `${path}/images/${req.params.id}.png`;
+
+  fs.readFile(imagePath, 'utf8', (err, contents) => {
+    if (err) {
+      res.status(404).send(`Cannot GET images/${req.params.id}`);
+    }
+    else {
+      res.sendFile(imagePath);
+    }
+  });
+};
+
+function icons(req, res) {
+  var imagePath = `${path}/icons/${req.params.id}.png`;
+
+  fs.readFile(imagePath, 'utf8', (err, contents) => {
+    if (err) {
+      res.status(404).send(`Cannot GET icons/${req.params.id}`);
+    }
+    else {
+      res.sendFile(imagePath);
+    }
+  });
 };
 
 function list(req, res) {

@@ -1,76 +1,75 @@
 {
-  "products" : [
-     {
-        "product_id" : 1,
-        "name" : "Apples",
-        "price" : 120,
-        "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/1.jpg"
-     },
-     {
-        "product_id" : 2,
-        "name" : "Oranges",
-        "price" : 167,
-        "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/2.jpg"
-     },
-     {
-        "product_id" : 3,
-        "name" : "Bananas",
-        "price" : 88,
-        "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/3.jpg"
-     },
-     {
-        "product_id" : 4,
-        "name" : "Onions",
-        "price" : 110,
-        "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/4.jpg"
-     },
-     {
-        "product_id" : 5,
-        "name" : "Steak",
-        "price" : 543,
-        "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/5.jpg"
-     },
-     {
-        "product_id" : 6,
-        "name" : "Pork",
-        "price" : 343,
-        "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/6.jpg"
-     },
-     {
-        "product_id" : 7,
-        "name" : "Chicken",
-        "price" : 272,
-        "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/chicken.jpg"
-     },
-     {
-        "product_id" : 8,
-        "name" : "Salmon",
-        "price" : 267,
-        "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/8.jpg"
-     },
-     {
-        "product_id" : 9,
-        "name" : "Tuna",
-        "price" : 557,
-        "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/9.jpg"
-     },
-     {
-        "product_id" : 10,
-        "name" : "Broccoli",
-        "price" : 32,
-        "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/10.jpg"
-     },
-     {
-        "product_id" : 11,
-        "name" : "Bacon",
-        "price" : 212,
-        "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/11.jpg"
-     },
-     {
-        "product_id" : 12,
-        "name" : "Peppers",
-        "price" : 9,
-        "image" : "https://s3-eu-west-1.amazonaws.com/developer-application-test/images/12.jpg"
-     }
+  "products": [{
+      "productId": 1,
+      "name": "Apples",
+      "price": 120,
+      "image": "icons/1.png"
+    },
+    {
+      "productId": 2,
+      "name": "Oranges",
+      "price": 167,
+      "image": "icons/2.png"
+    },
+    {
+      "productId": 3,
+      "name": "Bananas",
+      "price": 88,
+      "image": "icons/3.png"
+    },
+    {
+      "productId": 4,
+      "name": "Onions",
+      "price": 110,
+      "image": "icons/4.png"
+    },
+    {
+      "productId": 5,
+      "name": "Steak",
+      "price": 543,
+      "image": "icons/5.png"
+    },
+    {
+      "productId": 6,
+      "name": "Pork",
+      "price": 343,
+      "image": "icons/6.png"
+    },
+    {
+      "productId": 7,
+      "name": "Chicken",
+      "price": 272,
+      "image": "icons/7.png"
+    },
+    {
+      "productId": 8,
+      "name": "Salmon",
+      "price": 267,
+      "image": "icons/8.png"
+    },
+    {
+      "productId": 9,
+      "name": "Tuna",
+      "price": 557,
+      "image": "icons/9.png"
+    },
+    {
+      "productId": 10,
+      "name": "Broccoli",
+      "price": 32,
+      "image": "icons/10.png"
+    },
+    {
+      "productId": 11,
+      "name": "Bacon",
+      "price": 212,
+      "image": "icons/11.png"
+    },
+    {
+      "productId": 12,
+      "name": "Peppers",
+      "price": 9,
+      "image": "icons/12.png"
+    }
   ]
 }
