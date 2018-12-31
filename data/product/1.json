@@ -17,49 +17,66 @@
       "name": "Total fat",
       "value": {
         "value": 0.2,
-        "per": 0,
-        "items": {
-          "Saturated fat": {
+        "per": "0%",
+        "unit": "g",
+        "items": [
+          {
+            "name": "Saturated fat",
             "value": 0,
-            "per": 0
+            "per": "0%",
+            "unit": "g"
           },
-          "Polyunsaturated fat": 0.1,
-          "Monounsaturated fat": 0
-        }
+          {
+            "name": "Polyunsaturated fat",
+            "value": 0.1,
+            "unit": "g"
+          },
+          {
+            "name": "Monounsaturated fat",
+            "value": 0,
+            "unit": "g"
+          }
+        ]
       }
     },
     {
       "name": "Cholesterol",
       "value": {
         "value": 0,
-        "per": 0
+        "unit": "mg",
+        "per": "0%"
       }
     },
     {
       "name": "Sodium",
       "value": {
         "value": 1,
-        "per": 0
+        "unit": "mg",
+        "per": "0%"
       }
     },
     {
       "name": "Potassium",
       "value": {
         "value": 107,
-        "per": 3
+        "unit": "mg",
+        "per": "3%"
       }
     },
     {
       "name": "Total Carbohydrate",
       "value": {
         "value": 14,
-        "per": 4,
+        "per": "4%",
+        "unit": "g",
         "items": {
           "Dietary fiber": {
             "value": 2.4,
-            "per": 9
+            "unit": "g",
+            "per": "9%"
           },
-          "Sugar": 10
+          "Sugar": 10,
+          "unit": "g",
         }
       }
     },
@@ -67,40 +84,41 @@
       "name": "Protein",
       "value": {
         "value": 0.3,
-        "per": 0
+        "unit": "g",
+        "per": "0%"
       }
     },
     {
       "name": "Vitamin A",
-      "value": 1
+      "value": "1%"
     },
     {
       "name": "Vitamin C",
-      "value": 7
+      "value": "7%"
     },
     {
       "name": "Calcium",
-      "value": 0
+      "value": "0%"
     },
     {
       "name": "Iron",
-      "value": 0
+      "value": "0%"
     },
     {
       "name": "Vitamin D",
-      "value": 0
+      "value": "0%"
     },
     {
       "name": "Vitamin B-6",
-      "value": 0
+      "value": "0%"
     },
     {
       "name": "Cobalamin",
-      "value": 0
+      "value": "0%"
     },
     {
       "name": "Magnesium",
-      "value": 1
+      "value": "1%"
     }
   ]
 }
