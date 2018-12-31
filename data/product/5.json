@@ -5,55 +5,102 @@
   "image": "images/5.png",
   "icon": "icons/5.png",
   "decription": "Beef it's what's for dinner",
-  "nutritionFacts": {
-    "Amount": "Per 100 grams",
-    "Calories": 52,
-    "Total fat": {
-      "value": 0.2,
-      "per": 0,
-      "items": {
-        "Saturated fat": {
-          "value": 0,
-          "per": 0
-        },
-        "Polyunsaturated fat": 0.1,
-        "Monounsaturated fat": 0
+    "nutritionFacts": [{
+      "name": "Amount",
+      "value": "Per 100 grams"
+    },
+    {
+      "name": "Calories",
+      "value": 52
+    },
+    {
+      "name": "Total fat",
+      "value": {
+        "value": 0.2,
+        "per": 0,
+        "items": {
+          "Saturated fat": {
+            "value": 0,
+            "per": 0
+          },
+          "Polyunsaturated fat": 0.1,
+          "Monounsaturated fat": 0
+        }
       }
     },
-    "Cholesterol": {
-      "value": 0,
-      "per": 0
-    },
-    "Sodium": {
-      "value": 1,
-      "per": 0
-    },
-    "Potassium": {
-      "value": 107,
-      "per": 3
-    },
-    "Total Carbohydrate": {
-      "value": 14,
-      "per": 4,
-      "items": {
-        "Dietary fiber": {
-          "value": 2.4,
-          "per": 9
-        },
-        "Sugar": 10
+    {
+      "name": "Cholesterol",
+      "value": {
+        "value": 0,
+        "per": 0
       }
     },
-    "Protein": {
-      "value": 0.3,
-      "per": 0
+    {
+      "name": "Sodium",
+      "value": {
+        "value": 1,
+        "per": 0
+      }
     },
-    "Vitamin A": 1,
-    "Vitamin C": 7,
-    "Calcium": 0,
-    "Iron": 0,
-    "Vitamin D": 0,
-    "Vitamin B-6": 0,
-    "Cobalamin": 0,
-    "Magnesium": 1
-  }
+    {
+      "name": "Potassium",
+      "value": {
+        "value": 107,
+        "per": 3
+      }
+    },
+    {
+      "name": "Total Carbohydrate",
+      "value": {
+        "value": 14,
+        "per": 4,
+        "items": {
+          "Dietary fiber": {
+            "value": 2.4,
+            "per": 9
+          },
+          "Sugar": 10
+        }
+      }
+    },
+    {
+      "name": "Protein",
+      "value": {
+        "value": 0.3,
+        "per": 0
+      }
+    },
+    {
+      "name": "Vitamin A",
+      "value": 1
+    },
+    {
+      "name": "Vitamin C",
+      "value": 7
+    },
+    {
+      "name": "Calcium",
+      "value": 0
+    },
+    {
+      "name": "Iron",
+      "value": 0
+    },
+    {
+      "name": "Vitamin D",
+      "value": 0
+    },
+    {
+      "name": "Vitamin B-6",
+      "value": 0
+    },
+    {
+      "name": "Cobalamin",
+      "value": 0
+    },
+    {
+      "name": "Magnesium",
+      "value": 1
+    }
+  ]
 }
