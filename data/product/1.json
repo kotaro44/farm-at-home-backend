@@ -19,8 +19,7 @@
         "value": 0.2,
         "per": "0%",
         "unit": "g",
-        "items": [
-          {
+        "items": [{
             "name": "Saturated fat",
             "value": 0,
             "per": "0%",
@@ -76,7 +75,7 @@
             "per": "9%"
           },
           "Sugar": 10,
-          "unit": "g",
+          "unit": "g"
         }
       }
     },
