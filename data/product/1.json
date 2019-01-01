@@ -6,8 +6,9 @@
   "icon": "icons/1.png",
   "description": "An apple a day keeps the doctor away.",
   "nutritionFacts": [{
-      "name": "Amount",
-      "value": "Per 100 grams"
+      "name": "Amount Per",
+      "value": "100",
+      "unit": "grams"
     },
     {
       "name": "Calories",
@@ -18,24 +19,29 @@
       "value": {
         "value": 0.2,
         "per": "0%",
-        "unit": "g",
-        "items": [{
-            "name": "Saturated fat",
-            "value": 0,
-            "per": "0%",
-            "unit": "g"
-          },
-          {
-            "name": "Polyunsaturated fat",
-            "value": 0.1,
-            "unit": "g"
-          },
-          {
-            "name": "Monounsaturated fat",
-            "value": 0,
-            "unit": "g"
-          }
-        ]
+        "unit": "g"
+      }
+    },
+    {
+      "name": "Saturated fat",
+      "value": {
+        "value": 0,
+        "per": "0%",
+        "unit": "g"
+      }
+    },
+    {
+      "name": "Polyunsaturated fat",
+      "value": {
+        "value": 0.1,
+        "unit": "g"
+      }
+    },
+    {
+      "name": "Monounsaturated fat",
+      "value": {
+        "value": 0,
+        "unit": "g"
       }
     },
     {
@@ -67,16 +73,22 @@
       "value": {
         "value": 14,
         "per": "4%",
+        "unit": "g"
+      }
+    },
+    {
+      "name": "Dietary fiber",
+      "value": {
+        "value": 2.4,
         "unit": "g",
-        "items": {
-          "Dietary fiber": {
-            "value": 2.4,
-            "unit": "g",
-            "per": "9%"
-          },
-          "Sugar": 10,
-          "unit": "g"
-        }
+        "per": "9%"
+      }
+    },
+    {
+      "name": "Sugar",
+      "value": {
+        "value": 10,
+        "unit": "g"
       }
     },
     {
