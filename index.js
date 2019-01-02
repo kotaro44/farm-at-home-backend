@@ -3,8 +3,14 @@
 const express = require('express');
 const app = express();
 const fs = require('fs');
-const port = 3000;
 const path = __dirname + '/data';
+var port = 3000;
+
+process.argv.forEach(function (val, index, array) {
+  if (parseInt(val)) {
+    port = parseInt(val);
+  }
+});
 
 (function router() {
   app.use(function(req, res, next) {
