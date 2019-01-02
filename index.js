@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 
+const request = require('ajax-request');
 const express = require('express');
 const app = express();
 const fs = require('fs');
-const path = __dirname + '/data';
+const http = require('http');
+const path = 'http://kotaro44.github.io/public/data';
 var port = 3000;
 
 process.argv.forEach(function (val, index, array) {
@@ -35,27 +37,29 @@ function ping(req, res) {
 };
 
 function images(req, res) {
-  var imagePath = `${path}/images/${req.params.id}.png`;
-
-  fs.readFile(imagePath, 'utf8', (err, contents) => {
-    if (err) {
+  http.get(`${path}/images/${req.params.id}.png`, function(response) {
+    if (response.statusCode !== 200) {
       res.status(404).send(`Cannot GET images/${req.params.id}`);
     }
     else {
-      res.sendFile(imagePath);
+      res.writeHead(response.statusCode, {
+        'Content-Type': response.headers['content-type']
+      });
+      response.pipe(res);
     }
   });
 };
 
 function icons(req, res) {
-  var imagePath = `${path}/icons/${req.params.id}.png`;
-
-  fs.readFile(imagePath, 'utf8', (err, contents) => {
-    if (err) {
+  http.get(`${path}/icons/${req.params.id}.png`, function(response) {
+    if (response.statusCode !== 200) {
       res.status(404).send(`Cannot GET icons/${req.params.id}`);
     }
     else {
-      res.sendFile(imagePath);
+      res.writeHead(response.statusCode, {
+        'Content-Type': response.headers['content-type']
+      });
+      response.pipe(res);
     }
   });
 };
@@ -63,8 +67,15 @@ function icons(req, res) {
 function list(req, res) {
   res.setHeader('Content-Type', 'application/json');
 
-  fs.readFile(`${path}/list.json`, 'utf8', (err, contents) => {
-    res.send(contents);
+  request({
+    url: `${path}/list.json`,
+    method: 'GET',
+  }, function(err, response, body) {
+    if (err) {
+      res.status(404).send('Cannot GET list');
+    }
+
+    res.send(body);
   });
 };
 
@@ -73,12 +84,14 @@ function product(req, res) {
 
   res.setHeader('Content-Type', 'application/json');
 
-  fs.readFile(`${path}/product/${productId}.json`, 'utf8', (err, contents) => {
+  request({
+    url: `${path}/product/${productId}.json`,
+    method: 'GET',
+  }, function(err, response, body) {
     if (err) {
       res.status(404).send(`Cannot GET product/${productId}`);
     }
-    else {
-      res.send(contents);
-    }
+
+    res.send(body);
   });
 };

@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/kotaro44/farm-at-home-backend#readme",
   "dependencies": {
+    "ajax-request": "1.2.3",
     "express": "4.16.4"
   }
 }
