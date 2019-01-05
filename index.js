@@ -32,6 +32,12 @@ process.argv.forEach(function (val, index, array) {
   });
 })();
 
+function respond(res, body) {
+  setTimeout(() => {
+    res.send(body);
+  }, Math.floor(Math.random()*3000));
+};
+
 function ping(req, res) {
   res.send('Farm@Home - Backend');
 };
@@ -75,7 +81,7 @@ function list(req, res) {
       res.status(404).send('Cannot GET list');
     }
 
-    res.send(body);
+    respond(res, body);
   });
 };
 
@@ -92,6 +98,6 @@ function product(req, res) {
       res.status(404).send(`Cannot GET product/${productId}`);
     }
 
-    res.send(body);
+    respond(res, body);
   });
 };
